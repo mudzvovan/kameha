@@ -1,4 +1,4 @@
-<?
+<?php
 
 $GLOBALS['config'] = array(
 	'mysql' 	=> array(
@@ -8,3 +8,10 @@ $GLOBALS['config'] = array(
 		'db' 			=> ''
 	)
 );
+
+spl_autoload_register(function($class)
+{
+    $class = str_replace('\\', '/', $class);
+    require_once $class . '.php';
+    return;
+});
