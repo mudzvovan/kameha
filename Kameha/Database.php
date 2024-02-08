@@ -43,20 +43,6 @@ class Database
     private $dsn;
 
     /**
-     * The type of database.
-     *
-     * @var string
-     */
-    private $_type;
-
-    /**
-     * Database tables prefix.
-     *
-     * @var string
-     */
-    private $_prefix;
-
-    /**
      * The PDO statement object.
      *
      * @var \PDOStatement
