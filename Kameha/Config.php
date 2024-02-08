@@ -13,7 +13,7 @@
  * @link https://kamehainv.com
  */
 
-namespace kameha\Kameha;
+namespace Kameha;
 
 class Config{
 	public static function get($path = null){

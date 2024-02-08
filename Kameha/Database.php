@@ -16,7 +16,7 @@ declare(strict_types=1);
  */
 
 
-namespace kameha\Kameha;
+namespace Kameha;
 
 use PDO;
 use Exception;
